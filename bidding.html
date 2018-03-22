@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/experts.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+   
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/experts.js"></script>
+	
+		<div class="parent_panel">
+		
+		<ul class="nav nav-tabs" style="padding-left:50px;">
+		  <li class="active" id='nav1'>
+			<a href="#" onclick="change_panel('1','2')">首页</a>
+		  </li>
+		  <li id='nav2'>
+			<a href="#" onclick="change_panel('2','1')">查询</a>
+		  </li>		
+		</ul>
+		<div id='panel1' class="panel1">
+		<ul class="thumbnails">
+            <li class="span4">
+                <div class="thumbnail">
+                  <img   src="img/demo.png" style="width: 300px; height: 200px;">
+                  <div class="caption">
+                    <h3>阿甘正传</h3>
+                    <p>阿甘，他是一个占据着成年人躯体的幼童、一个圣贤级的傻子、一个超越真实的普通人、一个代表着民族个性的小人物。</p>
+                    <p><a href="#" class="btn btn-primary">观看</a> <a href="#" class="btn">收藏</a></p>
+                  </div>
+                </div>
+              </li>
+			  
+			  <li class="span4">
+                <div class="thumbnail">
+                  <img   src="img/demo.png" style="width: 300px; height: 200px;">
+                  <div class="caption">
+                    <h3>肖申克的救赎</h3>
+                    <p>银行家安迪因被当作杀害妻子与情夫的凶手，被判终身监禁。安迪在监狱中一方面帮监狱长做假账，一方面精心策划了一出越狱好戏。</p>
+                    <p><a href="#" class="btn btn-primary">观看</a> <a href="#" class="btn">收藏</a></p>
+                  </div>
+                </div>
+              </li>
+        
+            </ul>
+			</div>
+			<div id='panel2' class='panel2' style='display:none'>
+				<form class="form-search">
+				  <input type="text" class="input-large search-query">
+				  <button type="submit" class="btn">搜索</button>
+				</form>
+			<ul class="thumbnails">
+              <li class="span4">
+                <div class="thumbnail">
+                  <img   src="img/demo.png" style="width: 300px; height: 200px;">
+                  <div class="caption">
+                    <h3>肖申克的救赎</h3>
+                    <p>银行家安迪因被当作杀害妻子与情夫的凶手，被判终身监禁。安迪在监狱中一方面帮监狱长做假账，一方面精心策划了一出越狱好戏。</p>
+                    <p><a href="#" class="btn btn-primary">观看</a> <a href="#" class="btn">收藏</a></p>
+                  </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img   src="img/demo.png" style="width: 300px; height: 200px;">
+                  <div class="caption">
+                    <h3>盗梦空间</h3>
+                    <p>本片被定义为“发生在意识结构内的当代动作科幻片”，诺兰继《黑暗骑士》后再次给我们带来惊喜，带观众游走于梦境与现实之间。</p>
+                    <p><a href="#" class="btn btn-primary">观看</a> <a href="#" class="btn">收藏</a></p>
+                  </div>
+                </div>
+              </li>
+              <li class="span4">
+                <div class="thumbnail">
+                  <img   src="img/demo.png" style="width: 300px; height: 200px;">
+                  <div class="caption">
+                    <h3>阿甘正传</h3>
+                    <p>阿甘，他是一个占据着成年人躯体的幼童、一个圣贤级的傻子、一个超越真实的普通人、一个代表着民族个性的小人物。</p>
+                    <p><a href="#" class="btn btn-primary">观看</a> <a href="#" class="btn">收藏</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+			
+			</div>
+		</div>
+  </body>
+</html>
