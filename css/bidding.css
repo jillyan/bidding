@@ -1,0 +1,17 @@
+.body_padding {
+    padding-top: 60px;
+}
+
+.bidding_nav {
+    padding-top: 10px;
+}
+
+.content {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home_picture {
+    width: 300px;
+}
