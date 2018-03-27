@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>专家名单</title>
     <meta charset="UTF-8">
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/experts2.css" rel="stylesheet" media="screen">
@@ -10,8 +11,11 @@
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/experts.js"></script>
+<script src="js/jQuery.print.js"></script>
 <div class="container">
-    <div class="row">
+    <img src="img/printer.jpg" style="width:30px;height:30px;" alt="打印">
+    <button type="button" class="btn btn-link" onclick="doPrint();">打印</button>
+    <div id="print_id" class="row">
         <p class="print-header">评审专家名单</p>
         <ul class="list-unstyled">
             <li>项目编号：测试</li>
@@ -45,7 +49,7 @@
                 <td></td>
             </tr>
         </table>
-        <table class="table">
+        <table class="table" style="position: absolute;bottom: 10px;">
             <tr>
                 <td>第1页，共1页</td>
                 <td>人数总计：1</td>
